@@ -1,0 +1,23 @@
+{
+  "name": "browserstackframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testerai10x/BrowserStackFramework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/testerai10x/BrowserStackFramework/issues"
+  },
+  "homepage": "https://github.com/testerai10x/BrowserStackFramework#readme",
+  "devDependencies": {
+    "cypress": "^13.3.0"
+  }
+}
