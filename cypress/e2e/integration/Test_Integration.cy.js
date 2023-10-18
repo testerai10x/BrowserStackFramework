@@ -14,18 +14,21 @@ describe('Login', () => {
 
   })
 
-  it('Standard Login', function(){
+  // Test for valid username
+  it('TC 01 - Standard Login', function(){
     
     // Login with username and password
     cy.Login(this.data.username.demo, this.data.password.pass)
-    cy.get(this.data.message.demo_success).should('be.visible')
+    cy.get(this.data.message.demo_success).should('be.visible') // Success message should be visible
 
   })
 
   // Test for invalid username
-  it('Locked Account Login', function(){
+  it('TC 02 - Locked Account Login', function(){
+
+    // Login with username and password
     cy.Login(this.data.username.lock_user, this.data.password.pass)
-    cy.get(this.data.message.error).should('be.visible')
+    cy.get(this.data.message.error).should('be.visible') // Error message should be visible
 
   })
 })
