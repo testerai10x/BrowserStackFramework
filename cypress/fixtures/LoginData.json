@@ -1,0 +1,21 @@
+{
+  "username":
+  {
+    "demo": "demouser",
+    "no_image": "no_image_not_loading_user",
+    "existing_order": "existing_orders_user",
+    "favorite_user": "fav_user",
+    "lock_user": "locked_user"
+  },
+    
+  "password":
+  {
+    "pass": "testingisfun99"
+  },
+
+  "message":
+  {
+    "error": ".api-error",
+    "demo_success": ".username"
+  }
+}
