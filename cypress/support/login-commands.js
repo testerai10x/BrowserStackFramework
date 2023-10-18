@@ -1,5 +1,6 @@
 /// <reference types="cypress" />
 
+// Command to login
 Cypress.Commands.add('Login', (email, password) => {
     cy.fixture('LoginElements').then((loginElements) => {
         cy.get(loginElements.username).type(email + '{enter}')

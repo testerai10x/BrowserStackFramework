@@ -1,5 +1,5 @@
 {
-    "username": "#username > .css-yk16xz-control > .css-1hwfws3",
-    "password": "#password > .css-yk16xz-control > .css-1hwfws3",
+    "username": "#username",
+    "password": "#password",
     "loginButton": "#login-btn"
 }
