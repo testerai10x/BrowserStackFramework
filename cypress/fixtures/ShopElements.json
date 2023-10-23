@@ -1,0 +1,35 @@
+{
+    "webElements":
+    {
+        "carButton": ".bag--float-cart-closed",
+        "closeCarButton": ".float-cart__close-btn",
+        "carItems": ".bag__quantity",
+        "offersButton": "#offers > strong",
+        "ordersButton": "#orders > strong",
+        "buyButton": ".buy-btn",
+        "favouritesButton": "#favourites > strong",
+        "vendorButtonAPPLE": ":nth-child(2) > label > .checkmark",
+        "vendorButtonSAMSUNG": ":nth-child(3) > label > .checkmark",
+        "vendorButtonGOOGLE": ":nth-child(4) > label > .checkmark",
+        "vendorButtonONEPLUS": ":nth-child(5) > label > .checkmark"
+    },
+
+    "shippingInfo":
+    {
+        "firstName": "#firstNameInput",
+        "lastName": "#lastNameInput",
+        "address": "#addressLine1Input",
+        "state": "#provinceInput",
+        "postalcode": "#postCodeInput",
+        "checkoutButton": "#checkout-shipping-continue",
+        "successOrder": "#confirmation-message",
+        "confirmationMessage": "legend[id='confirmation-message']"
+    },
+
+    "appleElements":
+    {
+        "iphone12": "#1  > .shelf-item__buy-btn",
+        "iphone11": "#5  > .shelf-item__buy-btn",
+        "iphoneXR": "#8  > .shelf-item__buy-btn"
+    }
+}
