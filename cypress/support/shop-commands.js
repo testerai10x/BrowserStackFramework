@@ -1,3 +1,6 @@
+/// <reference types="cypress" />
+
+// Command to buy iPhone
 Cypress.Commands.add('BuyIphone', () => {
     cy.fixture('ShopElements').then((shopElements) => {
         cy.get(shopElements.appleElements.iphone12).click()
